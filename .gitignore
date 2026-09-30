@@ -1,0 +1,25 @@
+# IDE & temporary files
+.vs/
+.vscode/
+*.vsidx
+*.sqlite
+*.json
+!tcm_app.json
+
+# Virtual environment
+tcm-env/
+venv/
+*.venv
+
+# Generated knowledge index (rebuildable, don't commit)
+nihaixia_index/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Streamlit & runtime
+.streamlit/secrets.toml
+*.log
